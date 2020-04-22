@@ -4,7 +4,9 @@ apt update
 
 apt upgrade
 
-apt install requests
+pip2 install requests
+
+pip2 install mechanize
 
 apt install python3
 
