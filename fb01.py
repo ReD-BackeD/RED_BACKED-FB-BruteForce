@@ -57,7 +57,7 @@ i=0
 while file:
 	passw=file.readline().strip()
 	i+=1
-	if len(passw) < 6:
+	if len(passw) < 2:
 		continue
 	print(str(i) +" : ",passw)
 	if function(email,passw,i):
